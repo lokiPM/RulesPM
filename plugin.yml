@@ -1,0 +1,15 @@
+name: RulesPM
+version: 1.0
+api: 5.0.0
+main: lokiPM\RulesPM\Main
+src-namespace-prefix: lokiPM\RulesPM
+
+commands:
+ rules:
+  description: Show Rules UI.
+  permission: rules.use
+  default: true
+
+permissions: 
+ rules.use:
+  default: true
