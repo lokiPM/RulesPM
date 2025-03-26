@@ -7,9 +7,9 @@ src-namespace-prefix: lokiPM\RulesPM
 commands:
  rules:
   description: Show Rules UI.
-  permission: rules.use
+  permission: rulesPM.use
   default: true
 
 permissions: 
- rules.use:
+ rulesPM.use:
   default: true
